@@ -669,7 +669,7 @@ input[type="submit"] {
 
 }
 
-@media (max-width:600px){
+@media (min-width:600px) and (max-width: 1280px) {
     .hero__title{
         font-size: 2rem;
     }
@@ -682,6 +682,14 @@ input[type="submit"] {
         font-size: 1.8rem;
     }
 
+    .container {
+        font-size: 2rem;
+    }
+
+    .price_table{
+        width: 90%;
+    }
+
     .price__element{
         width: 90%;
     }
@@ -692,6 +700,10 @@ input[type="submit"] {
     }
 
     .price__price{
+        font-size: 2rem;
+    }
+
+    .price__features{
         font-size: 2rem;
     }
 
