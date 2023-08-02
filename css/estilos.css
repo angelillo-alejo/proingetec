@@ -173,7 +173,7 @@ body {
 
 .knowledge {
    
-    background: #a8baf3;
+    background: #073cea;
     height: 50%;
     
 }
@@ -199,7 +199,7 @@ input[type="email"] {
     width: 41%;
     padding: 10px;
     border: none;
-    color: rgb(255, 255, 255);
+    color: rgb(247, 183, 183);
     font-family: 'open sans';
     background: rgb(250, 252, 252);
     margin-bottom: 16px;
@@ -218,7 +218,6 @@ textarea {
     background: rgba(255, 255, 255, 0.954);
     padding: 10px;
     border: none;
-    color: rgb(248, 244, 244);
     font-family: 'open sans';
     margin-bottom: 10px;
 }
