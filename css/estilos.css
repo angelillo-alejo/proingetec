@@ -558,9 +558,14 @@ input[type="submit"] {
 
 /* Media queries */
 
-@media (max-width:800px){
+@media (min-width:600px) and (max-width: 1280px){
     .nav__menu{
         display: block;
+    }
+
+    .nav__logo{
+        display: block;
+        margin:10px 30px 2px 5px;
     }
 
     .nav__link--menu{
@@ -668,7 +673,7 @@ input[type="submit"] {
 
 }
 
-@media (min-width:600px) and (max-width: 1280px) {
+@media (min-width:375px) and (max-width: 1280px) {
     .hero__title{
         font-size: 2rem;
     }
@@ -755,9 +760,6 @@ input[type="submit"] {
         margin-left: 0;
         
 
-        /* 
-        margin:0;
-        width: 100%;
-        */
+
     }
 }
